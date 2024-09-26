@@ -17,19 +17,47 @@ header {
   padding: 1em;
 }
 
-nav ul {
-  display: flex;
-  justify-content: center;
-  padding: 0;
+main-navbar {
+	background-color:green;
+	overflow:hidden;
+	font-style: italic;
+	font-size: 16px;
+	font-weight: bold;
 }
 
-nav ul li {
-  margin: 0 1em;
+#navbar-container {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+	
+#main-navbar ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 50%;
+	float: left;
+	 
 }
 
-nav ul li a {
-  color: #333;
-  font-weight: bold;
+#main-navbar ul li {
+	float: left;
+	position: relative;
+	right: 50%;
+	display: block;
+ 
+}
+
+#main-navbar ul li a {
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+ 
+#main-navbar ul li a:hover {
+	background-color: #000080;
 }
 
 .container {
