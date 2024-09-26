@@ -21,7 +21,7 @@ header {
   padding: 1em;
 }
 
-main-navbar {
+#main-navbar {
 	background-color:green;
 	overflow:hidden;
 	font-style: italic;
@@ -105,9 +105,12 @@ footer {
 
 /* Responsive Media Query */
 @media (max-width: 768px) {
-  nav ul {
+  #main-navbar ul {
     flex-direction: column;
   }
+	#main-navbar ul li {
+		float: none;
+	}
 }
 
 		
