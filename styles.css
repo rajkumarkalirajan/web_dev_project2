@@ -88,6 +88,22 @@ footer {
   bottom: 0;
 }
 
+#main-images {
+	text align: center;
+	margin: 20px 0;
+}
+
+#images-cotainer {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+#images-container img {
+	max-width: 100%;
+	height: auto;
+}
+	
 
 /* Fluid Layout */
 .fluid-layout {
