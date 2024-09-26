@@ -15,7 +15,7 @@ body {
   margin: 0;
 }
 
-header {
+#header {
   text-align: center;
   background-color: #f8f9fa;
   padding: 1em;
@@ -30,7 +30,6 @@ header {
 }
 
 #navbar-container {
-	float: left;
 	width: 100%;
 	position: relative;
 	text-align: center;
