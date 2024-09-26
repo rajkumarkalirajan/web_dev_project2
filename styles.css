@@ -1,7 +1,11 @@
-	/* styles.css */
-
-/* Importing font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+	#main--header {
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3e2c7+0,b68d4c+13,e9d4b3+100 */
+background: linear-gradient(to bottom,  #f3e2c7 0%,#b68d4c 13%,#e9d4b3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+height: 80px;
+	}
+#project-name {
+	font-size: 30px;
+}
 
 /* General Styles */
 body {
