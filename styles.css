@@ -2,6 +2,7 @@
 		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3e2c7+0,b68d4c+13,e9d4b3+100 */
 background: linear-gradient(to bottom,  #f3e2c7 0%,#b68d4c 13%,#e9d4b3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 height: 80px;
+text-align: center;
 	}
 #project-name {
 	font-size: 30px;
@@ -14,11 +15,32 @@ body {
   padding: 0;
   margin: 0;
 }
-
-#header {
-  text-align: center;
-  background-color: #f8f9fa;
+.container {
+  width: 80%;
+  margin: 0 auto;
   padding: 1em;
+	overflow: hidden;
+}
+#main-images {
+	text-align: center;
+	margin: 20px;
+}
+#images-container {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+#images-container img {
+	max-width: 100%;
+	height: auto;
+}
+#media-container {
+	display: flex;
+	justify-content: center;
+}
+
+#project-name {
+	font-size: 30px;
 }
 
 #main-navbar {
@@ -40,16 +62,11 @@ body {
 	margin: 0;
 	padding: 0;
 	display: inline-block;
-	vertical-align: top;
-	 
+		 
 }
 
 #main-navbar ul li {
 	float: left;
-	position: relative;
-	right: 50%;
-	display: block;
- 
 }
 
 #main-navbar ul li a {
@@ -67,12 +84,7 @@ body {
 	background-color: #navy;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-  padding: 1em;
-	overflow: hidden;
-}
+
 #header-container {
 	position: relative;
 }
@@ -87,36 +99,12 @@ footer {
   bottom: 0;
 }
 
-#main-images {
-	text align: center;
-	margin: 20px 0;
-}
-
-#images-cotainer {
-	display: flex;
-	justify-content: center;
-	gap: 20px;
-}
-
-#images-container img {
-	max-width: 100%;
-	height: auto;
-}
-	
-
 /* Fluid Layout */
 .fluid-layout {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 2%;
-}
-
-/* Fixed Width Layout */
-.fixed-layout {
-  width: 960px;
-  margin: 0 auto;
-  padding: 20px;
 }
 
 /* Responsive Media Query */
