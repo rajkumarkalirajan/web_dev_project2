@@ -29,15 +29,15 @@ main-navbar {
 	float: left;
 	width: 100%;
 	position: relative;
+	text-align: center;
 }
 	
 #main-navbar ul {
 	list-style-type:none;
 	margin: 0;
 	padding: 0;
-	position: relative;
-	left: 50%;
-	float: left;
+	display: inline-block;
+	vertical-align: top;
 	 
 }
 
@@ -60,10 +60,18 @@ main-navbar {
 	background-color: #000080;
 }
 
+#main-navbar #onpage {
+	background-color: #navy;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
   padding: 1em;
+	overflow: hidden;
+}
+#header-container {
+	position: relative;
 }
 
 footer {
