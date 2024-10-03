@@ -107,12 +107,6 @@ body {
 #main-navbar ul li a:hover {
 	background-color: #000080;
 }
-
-#main-navbar #onpage {
-	background-color: none;
-}
-
-
 #header-container {
 	position: relative;
 }
