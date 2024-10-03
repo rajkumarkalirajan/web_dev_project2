@@ -3,6 +3,7 @@
 background: linear-gradient(to bottom,  #f3e2c7 0%,#b68d4c 13%,#e9d4b3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 height: 80px;
 text-align: center;
+ background-color: #f8f9fa;
 	}
 #header {
   text-align: center;
