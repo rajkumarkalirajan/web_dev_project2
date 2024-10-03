@@ -40,17 +40,17 @@ body {
 	margin: 20px;
 }
 #images-container {
-	display: flex;
-	justify-content: center;
-	gap: 20px;
-}
+	text-align: center;
+	}
 #images-container img {
-	width: 250px;
+	display: inline-block;
+	margin: 10px;
+	max-width: 100%;
 	height: auto;
+	
 }
-#media-container {
-	display: flex;
-	justify-content: center;
+#audio-container {
+	text-align: center;
 	margin-top: 20px;
 }
 
